@@ -2,6 +2,7 @@ import argparse
 import urllib.request
 import logging
 import datetime
+import csv
 
 def downloadData(url):
     """Downloads the data from a url and returns it as a string."""
