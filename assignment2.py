@@ -11,7 +11,7 @@ def downloadData(url):
         return response.read().decode('utf-8')
 
 def processData(csv_content):
-    """Takes .CSV file and returns a dictionary. Maped IDs to (name, birthday)."""
+    """Takes .CSV file and returns a dictionary. Mapped IDs to (name, birthday)."""
 
     personData = {}  # Dictionary to store data
     logger = logging.getLogger('assignment2')  # Get logger for error logging. Part V.3 here.
